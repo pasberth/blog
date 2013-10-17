@@ -1,0 +1,9 @@
+BUILDDIR      = build
+SPHINXBUILD   = sphinx-build
+
+DefineCommandVars()
+
+BUILDDIR = $(dir $(BUILDDIR))
+
+.PHONY: all
+.SUBDIRS: .

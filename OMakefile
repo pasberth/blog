@@ -1,0 +1,4 @@
+$(BUILDDIR): conf.py $(find . -name *.rst) $(find theme -name *)
+    $(SPHINXBUILD) -b html . $(BUILDDIR)
+
+all: $(BUILDDIR)

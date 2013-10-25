@@ -5,6 +5,7 @@ DefineCommandVars()
 
 BUILDDIR = $(dir $(BUILDDIR))
 
+open build/C
 open build/OCaml
 
 .PHONY: all

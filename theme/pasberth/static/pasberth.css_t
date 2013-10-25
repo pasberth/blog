@@ -39,12 +39,7 @@ pre {
 
 .document {
   margin: 0;
-  padding: 1em;
-}
-
-.section .section {
-  margin: 1.5em;
-  padding: 1em;
+  padding: 0;
 }
 
 .document h1 {

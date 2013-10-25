@@ -5,5 +5,7 @@ DefineCommandVars()
 
 BUILDDIR = $(dir $(BUILDDIR))
 
+open build/OCaml
+
 .PHONY: all
-.SUBDIRS: .
+.SUBDIRS: . $(glob entry/*/)

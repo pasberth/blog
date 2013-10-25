@@ -2,3 +2,8 @@
 .omakedb.lock
 build
 *.omc
+*.mli
+*.cmx
+*.cmi
+*.o
+*.opt

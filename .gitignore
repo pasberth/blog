@@ -7,3 +7,5 @@ build
 *.cmi
 *.o
 *.opt
+*.so
+*.a

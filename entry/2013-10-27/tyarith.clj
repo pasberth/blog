@@ -3,8 +3,7 @@
 (defrecord Info [expected actual ast-at])
 
 (defn expect-arity [n t] (when (not= (count t) n)
-  (throw
-    (throw (RuntimeException. (str t " unexpected"))))))
+  (throw (RuntimeException. (str t " unexpected")))))
 
 (defn typeof [t] (case t
   true  (Just. 'Boolean)

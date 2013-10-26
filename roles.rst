@@ -5,3 +5,7 @@
 .. role:: ml(code)
    :language: ocaml
    :class: highlight
+
+.. role:: clj(code)
+   :language: clojure
+   :class: highlight

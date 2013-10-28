@@ -7,6 +7,7 @@ pasberth.github.io/blog
 .. toctree::
   :maxdepth: 1
 
+  entry/2013-10-31/index
   entry/2013-10-30/index
   entry/2013-10-29/index
   entry/2013-10-28/index

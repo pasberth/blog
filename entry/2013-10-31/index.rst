@@ -5,7 +5,7 @@ fish というシェルを使ってみた．なかなかいい感じの使い心
 インストールしたとき，はじめから， Zsh でいう，
 `zsh-syntax-highlighting <https://github.com/zsh-users/zsh-syntax-highlighting>`_
 や
-`zsh-syntax-highlighting <https://github.com/zsh-users/zsh-history-substring-search>`_
+`zsh-history-substring-search <https://github.com/zsh-users/zsh-history-substring-search>`_
 相当の機能が入っている．補完も敏感で，最初からいろいろと補完できる．
 
 `チュートリアル <http://fishshell.com/docs/current/tutorial.html>`_ を読もう．

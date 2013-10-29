@@ -35,6 +35,56 @@ fish というシェルを使ってみた．なかなかいい感じの使い心
    set -x HOGE FUGA
 
 と書く． ``-x`` は， ``--export`` の略だ．
+
+変数は， bash では
+
+.. code::
+
+   x=y
+
+と書く所を， fish では
+
+.. code::
+
+   set x y
+
+と書く．配列は， bash では
+
+.. code::
+
+   a=(x y z)
+
+と書く所を， fish では
+
+.. code::
+
+    set a x y z
+
+と書く．添字は 1 から始まる．
+
+.. code::
+
+   $ echo $a[1]
+   x
+   $ echo $a[2]
+   y
+   $ echo $a[3]
+   z
+
+さらに，配列をスライスすることも
+できる．たとえば，
+
+.. code::
+
+   $ echo $a[1..2]
+   x y
+   $ echo $a[1..3]
+   x y z
+   $ echo $a[1..-1]
+   x y z
+   $ echo $a[1..-2]
+   x y
+
 プロンプトは， ``PS1`` とかいう変数ではなく，
 
 .. code::

@@ -1,4 +1,4 @@
-extensions = []
+extensions = ['sphinxcontrib.texfigure']
 
 templates_path = []
 source_suffix = '.rst'

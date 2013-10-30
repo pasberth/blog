@@ -2,7 +2,7 @@
 ================================================================================
 
 Sphinx で， HTML に LaTex を埋め込むには，
-`<https://pypi.python.org/pypi/sphinxcontrib-texfigure/0.1.1>`_
+`texfigure <https://pypi.python.org/pypi/sphinxcontrib-texfigure/0.1.1>`_
 という拡張を使うといい． emerge とか pip で必要なライブラリをインストール．
 それから， conf.py に
 

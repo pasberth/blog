@@ -13,5 +13,7 @@ latest.rst: entries
 
 $(BUILDDIR): conf.py latest.rst $(find . -name *.rst) $(find . -name *.tex) $(find theme -name *)
     $(SPHINXBUILD) -b html . $(BUILDDIR)
+    rm entries
+    rm latest.rst
 
 all: $(BUILDDIR)

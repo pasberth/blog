@@ -57,3 +57,5 @@ x だ．全体として， T 型の戻り値を持つ．定義は x ．
     Coq < Eval compute in id nat 42.
          = 42
          : nat
+
+*Last updated:* |today|

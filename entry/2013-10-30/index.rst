@@ -1,4 +1,4 @@
-2013-10-30 再帰型
+再帰型
 ================================================================================
 
 .. include:: /roles.rst
@@ -82,3 +82,5 @@ f:Y→Y かつ x:(μX.X→Y) だということにすると次の
 .. literalinclude:: rectypes.ml
    :language: ocaml
    :lines: 40-45
+
+*Last updated:* |today|

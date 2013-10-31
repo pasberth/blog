@@ -16,3 +16,5 @@ html_theme_path = ['theme']
 html_theme_options = {
   "nosidebar": True
 }
+
+today_fmt = '%Y-%m-%d'

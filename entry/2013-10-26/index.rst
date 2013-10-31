@@ -1,4 +1,4 @@
-2013-10-26 OCaml から C の関数を呼ぶ
+OCaml から C の関数を呼ぶ
 ================================================================================
 
 .. include:: /roles.rst
@@ -29,3 +29,5 @@ OCaml の FFI の話．
 .. literalinclude:: OMakefile
    :language: none
    :linenos:
+
+*Last updated:* |today|

@@ -1,4 +1,4 @@
-2013-10-28 PEG.js で S式をパースする
+PEG.js で S式をパースする
 ================================================================================
 
 `TypedCoffeeScript <https://github.com/mizchi/TypedCoffeeScript>`_ のコードを
@@ -20,3 +20,5 @@
 出力はこう．
 
 .. literalinclude:: output.txt
+
+*Last updated:* |today|

@@ -9,3 +9,5 @@ build
 *.opt
 *.so
 *.a
+entries
+latest.rst

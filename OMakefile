@@ -1,4 +1,17 @@
-$(BUILDDIR): conf.py $(find . -name *.rst) $(find . -name *.tex) $(find theme -name *)
+entries:
+  foreach (x, $(glob entry/*))
+    echo $(basename $(x)) >> entries.tmp
+
+  sort entries.tmp > entries
+  rm entries.tmp
+
+latest.rst: entries
+  echo .. toctree\:\: > latest.rst
+  echo \ \ \:maxdepth\: 1 >> latest.rst
+  echo >> latest.rst
+  tac entries | head -n6 | perl -pe $"s|^|  entry/|; s|"\$"|/index|"  >> latest.rst
+
+$(BUILDDIR): conf.py latest.rst $(find . -name *.rst) $(find . -name *.tex) $(find theme -name *)
     $(SPHINXBUILD) -b html . $(BUILDDIR)
 
 all: $(BUILDDIR)

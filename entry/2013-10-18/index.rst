@@ -1,4 +1,4 @@
-2013-10-18 Haskell で infix 持ちの構文をパースする
+Haskell で infix 持ちの構文をパースする
 ================================================================================
 
 .. include:: /roles.rst
@@ -145,3 +145,5 @@ State ではなく， Reader を使ったのは，思わぬ所で値が更新さ
    :language: haskell
    :linenos:
    :emphasize-lines: 21, 26, 33, 57, 93, 96, 114
+
+*Last updated:* |today|

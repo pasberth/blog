@@ -1,4 +1,4 @@
-2013-10-29 Clojure でλ計算の構文木を単純に型付けする
+Clojure でλ計算の構文木を単純に型付けする
 ================================================================================
 
 .. include:: /roles.rst
@@ -85,3 +85,5 @@
 .. literalinclude:: simply.clj
    :language: clojure
    :linenos:
+
+*Last updated:* |today|

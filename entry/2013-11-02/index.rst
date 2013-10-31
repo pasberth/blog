@@ -1,4 +1,4 @@
-2013-11-02 Sphinx で HTML に LaTeX を埋め込む
+Sphinx で HTML に LaTeX を埋め込む
 ================================================================================
 
 Sphinx で， HTML に LaTex を埋め込むには，
@@ -26,3 +26,5 @@ Sphinx で， HTML に LaTex を埋め込むには，
 埋め込まれる．
 
 .. texfigure:: hello.tex
+
+*Last updated:* |today|

@@ -12,7 +12,7 @@ js_of_ocaml は， Fay や， ほとんどの altJS とは一風変わってい�
 言語そのものを一からつくっているわけではなく， OCaml のバイトコードを
 JavaScript にコンパイルするらしい．そう聞くだけでも，胸がドキドキしてこないか？
 
-`manual <http://ocsigen.org/js_of_ocaml/manual>`_ を読んでる．
+`manual <http://ocsigen.org/js_of_ocaml/manual/>`_ を読んでる．
 かなり使いやすそうだ．
 
 これで hello world を書いてみた！

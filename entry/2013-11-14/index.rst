@@ -1,11 +1,11 @@
 js_of_ocaml + ocamllex + menhir で S式をパースする
 ================================================================================
 
-:doc:`/entry/2013-11-09` で menhir を使った．これは， OCaml だ．
-:doc:`/entry/2013-11-12` で js_of_ocaml を使った．これは， OCaml を
+:doc:`/entry/2013-11-09/index` で menhir を使った．これは， OCaml だ．
+:doc:`/entry/2013-11-12/index` で js_of_ocaml を使った．これは， OCaml を
 JavaScript にコンパイルできる．では， JavaScript で menhir を使うことも，
 できるはずだ．そういうわけで，実際に試してみた．
-使用するコードは， :doc:`/entry/2013-11-09` で使ったものと，
+使用するコードは， :doc:`/entry/2013-11-09/index` で使ったものと，
 JavaScript のエントリーポイントからパーサを呼び出すための main.ml
 
 * main.ml
